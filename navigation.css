@@ -1,0 +1,246 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+.nav-div{
+    height: 100%;
+    display: flex;
+    position: fixed;
+    z-index: 1002;
+}
+.navigation-black-div{
+    width: 90vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(to right, black, rgb(203, 203, 203));
+}
+.navigation-motorcar-div{
+    width: 10vw;
+    height: 100vh;
+    background-color: rgb(203, 203, 203);
+}
+.motorcar{
+    width: 100%;
+}
+.navigation{
+    width: 80%;
+    height: 50%;
+}
+.navigation-a{
+    width: 100%;
+    height: 33%;
+    text-decoration: none;
+}
+.navigation-a:hover{
+    cursor: pointer;
+    background-color: white;
+    color: rgb(68, 68, 68);
+}
+.navigation-li{
+    color: rgb(85, 85, 178);
+    width: 100%;
+    height: 33%;
+    font-size: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    letter-spacing: 10px;
+    transition: 0.5s;
+}
+.navigation-motorcar-div:hover{
+    cursor: pointer;
+}
+.transformed{
+    transform: translateX(-90%);
+}
+.navigation-li:hover{
+    background-color: white;
+    transform: skewY(10deg);
+}
+.main-field{
+    width: 90vw;
+     height: 100%;
+    /*margin-left: 11vw; */
+}
+.welcome-text{
+    display: flex;
+}
+.with-bg{
+    width: 100%;
+    height: 100vh;
+}
+.bg-one{
+    background-image: url(./bg1.jpg);
+    position: absolute;
+    transition: 1s;
+    animation: bg1 16s linear infinite;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.bg-two{
+    background-image: url(./bg2.jpg);
+    position: absolute;
+    transition: 1s;
+    animation: bg2 16s linear infinite;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.bg-three{
+    background-image: url(./bg3.jpg);
+    position: absolute;
+    transition: 1s;
+    animation: bg3 16s linear infinite;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+.welcome-txt{
+    color: white;
+    z-index: 50;
+    margin-left: 12%;
+}
+.welcome-username{
+    margin-left: 0%;
+}
+.cardlist{
+    /* width: 100vw; */
+    height: 500px;
+    margin-top: 100vh;
+    margin-left: 11%;
+    display: flex;
+}
+.card{
+    width: 300px;
+    height: 150px;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+    transition: 1s;
+    margin-left: 1%;
+}
+.card-image{
+    width: 300px;
+    height: 150px;
+    border-radius: 8%;
+    z-index: 12;
+    position: absolute;
+}
+.card-description{
+    width: 300px;
+    border-radius: 8%;
+    background-color: rgb(142, 241, 241);
+    z-index: 10;
+}
+.description-txt{
+    font-size: large;
+    width: 290px;
+    color: white;
+    margin-bottom: 20px;
+    margin-left: 5px;
+    position: relative;
+}
+.why{
+    width: 300px;
+    height: 160px;
+    position: relative;
+}
+.order-button{
+    width: 150px;
+    height: 50px;
+    border-radius: 5%;
+    border: 0ch;
+    background-color: lightblue;
+    font-size: medium;
+    margin-left:75px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    position: relative;
+}
+.order-button:hover{
+    cursor: pointer;
+}
+.card:hover{
+    height: 500px;
+    cursor: pointer;
+}
+.blue-bag{
+    width: 60px;
+    height: 60px;
+    z-index: 1000;
+}
+.ordered-items{
+    z-index: 1000;
+    position: absolute;
+    left: 94%;
+    top: -.5%;
+    display: flex;
+}
+.ordered-items:hover{
+    cursor: pointer;
+}
+.ordered-items-number{
+    position: absolute;
+    background-color: red;
+    width: 15px;
+    height: 15px;
+    border-radius: 7.5px;
+    top: 70%;
+    z-index: 1001;
+}
+.ordered-items-number-value{
+    color: white;
+    width: 7.5px;
+    height: 7.5px;
+    margin-left: 20%;
+    margin-top: -10%;
+}
+.invisible{
+    visibility: hidden;
+}
+@keyframes bg1 {
+    0%{
+        opacity: 1;
+    }
+    33%{
+       opacity: 0;      
+        }
+    66%{
+        opacity: 0;
+    }
+
+}
+
+@keyframes bg2 {
+    0%{
+       opacity: 0;      
+        }
+    33%{
+        opacity: 1;
+    }
+    66%{
+        opacity: 0;
+    }
+}
+
+@keyframes bg3 {
+    0%{
+       opacity: 0;      
+        }
+    33%{
+       opacity: 0;      
+        }
+    66%{
+        opacity: 1;
+    }
+}

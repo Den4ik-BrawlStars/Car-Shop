@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="./navigation.css">
+    <script src="./nav.js" defer></script>
+    <script src="./mainfield.js" defer></script>
+    <script src="./blue-bag.js" defer></script>
+</head>
+<body>
+    <div class="nav-div transformed">
+        <div class="navigation-black-div">
+            <ul class="navigation">
+                <a href="./login.html" class="navigation-a sign-up-li">
+                    <li class="navigation-li">Войти</li>
+                </a>
+                <a href="#mainfield" class="navigation-a main-li">
+                    <li class="navigation-li">Главная</li>
+                </a>
+                <a href="#cardlist" class="navigation-a items-li">
+                    <li class="navigation-li">Товары</li>
+                </a>
+            </ul>
+        </div>
+        <div class="navigation-motorcar-div">
+            <img src="./Group 1.png" alt="" class="motorcar">
+        </div>
+    </div>
+    <div class="main-field" id="mainfield">
+        <div class="with-bg bg-one"></div>
+        <div class="with-bg bg-two"></div>
+        <div class="with-bg bg-three"></div>
+        
+        <div class="welcome-text">
+            <h1 class="welcome-txt">Добро пожаловать,</h1>
+            <h1 class="welcome-txt welcome-username">Пользователь</h1>
+        </div>
+        <div class="ordered-items">
+            <a href="./pay.html">
+            <img src="./3668838_bag_shopping_store_icon.png" alt="" class="blue-bag">
+            </a>
+            <div class="ordered-items-number invisible">
+                <p class="ordered-items-number-value">0</p>
+            </div>
+        </div>
+    </div>
+    <div class="cardlist" id="cardlist">
+        <div class="card">
+            <div class="card-image">
+                <img src="./rolls-royce.jpg" alt="" class="card-image">
+            </div>
+            <div class="card-description">
+                <div class="why"></div>
+                <h3 class="description-txt" style="margin-left:100px ;">Rolls-Royce</h3>
+                <p class="description-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto iusto quisquam repudiandae minima magnam velit, numquam fuga adipisci consequatur totam modi, consectetur quo sequi explicabo repellendus quaerat est eligendi commodi!</p>
+                <h3 class="description-txt" style="margin-left:90px ;">Цена:500 тенге</h3>
+                <button class="order-button">Заказать</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-image">
+                <img src="./tesla.jpg" alt="" class="card-image">
+            </div>
+            <div class="card-description">
+                <div class="why"></div>
+                <h3 class="description-txt" style="margin-left:130px ;">Tesla</h3>
+                <p class="description-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto iusto quisquam repudiandae minima magnam velit, numquam fuga adipisci consequatur totam modi, consectetur quo sequi explicabo repellendus quaerat est eligendi commodi!</p>
+                <h3 class="description-txt" style="margin-left:90px ;">Цена:750 тенге</h3>
+                <button class="order-button">Заказать</button>
+            </div>
+        </div>
+        <div class="card">
+            <div class="card-image">
+                <img src="./jiguli.jpg" alt="" class="card-image">
+            </div>
+            <div class="card-description">
+                <div class="why"></div>
+                <h3 class="description-txt" style="margin-left:75px ;">Жигуль дяди Васи</h3>
+                <p class="description-txt">Lorem ipsum dolor sit amet consectetur adipisicing elit. Architecto iusto quisquam repudiandae minima magnam velit, numquam fuga adipisci consequatur totam modi, consectetur quo sequi explicabo repellendus quaerat est eligendi commodi!</p>
+                <h3 class="description-txt" style="margin-left:90px ;">Цена:230 тенге</h3>
+                <button class="order-button">Заказать</button>
+            </div>
+        </div>
+    </div>
+    
+</body>
+</html>

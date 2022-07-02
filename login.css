@@ -1,0 +1,84 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+}
+h2{
+    color: gray;
+}
+.black-div{
+    width: 100%;
+    height: 100%;
+    background-color:black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sign-div{
+    width: 500px;
+    height: 350px;
+    background-color: rgb(36, 35, 35);
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5%;
+}
+.login-div, .password-div{
+    /* width: 200px;
+    height: 50px; */
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background-color: rgb(77, 74, 74);
+    margin: 10px;
+}
+.login-image, .password-image{
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+}
+.image{
+    width: 30px;
+    height: 30px;
+}
+.input{
+    background-color: rgb(77, 74, 74);
+    width: 160px;
+    height: 45px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+.login-input, .password-input{
+    width: 200px;
+    height: 50px;
+    border-radius: 8px;
+}
+.login-button{
+    width: 240px;
+    height: 50px;
+    background-color: plum;
+    border: 0px;
+    border-radius: 8px;
+    margin: 10px;
+}
+.login-button:hover{
+    cursor: pointer;
+}
+.alert{
+    width: 500px;
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(255, 43, 43, 0.505);
+    border: 1px red solid;
+    border-radius: 10px;
+    opacity: 0;
+}
